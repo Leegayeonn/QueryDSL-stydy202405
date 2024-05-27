@@ -8,4 +8,6 @@ public interface MemberRepositoryCustom {
 
     // JPA 아님!! 상속 안받았음!
     List<Member> findByName(String name);
+
+    List<Member> findUser(String nameParam, Integer ageParam);
 }
